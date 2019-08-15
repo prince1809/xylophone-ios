@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30FEAF82305463800AA93C7 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF12305463800AA93C7 /* note5.wav */; };
+		A30FEAF92305463800AA93C7 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF22305463800AA93C7 /* note3.wav */; };
+		A30FEAFA2305463800AA93C7 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF32305463800AA93C7 /* note7.wav */; };
+		A30FEAFB2305463800AA93C7 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF42305463800AA93C7 /* note6.wav */; };
+		A30FEAFC2305463800AA93C7 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF52305463800AA93C7 /* note2.wav */; };
+		A30FEAFD2305463800AA93C7 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF62305463800AA93C7 /* note4.wav */; };
+		A30FEAFE2305463800AA93C7 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A30FEAF72305463800AA93C7 /* note1.wav */; };
 		A33CDA732304727E00F4DF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33CDA722304727E00F4DF07 /* AppDelegate.swift */; };
 		A33CDA752304727E00F4DF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33CDA742304727E00F4DF07 /* ViewController.swift */; };
 		A33CDA782304727E00F4DF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33CDA762304727E00F4DF07 /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30FEAF12305463800AA93C7 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		A30FEAF22305463800AA93C7 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		A30FEAF32305463800AA93C7 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		A30FEAF42305463800AA93C7 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		A30FEAF52305463800AA93C7 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		A30FEAF62305463800AA93C7 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		A30FEAF72305463800AA93C7 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 		A33CDA6F2304727E00F4DF07 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33CDA722304727E00F4DF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A33CDA742304727E00F4DF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30FEAF02305462400AA93C7 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				A30FEAF52305463800AA93C7 /* note2.wav */,
+				A30FEAF22305463800AA93C7 /* note3.wav */,
+				A30FEAF62305463800AA93C7 /* note4.wav */,
+				A30FEAF12305463800AA93C7 /* note5.wav */,
+				A30FEAF42305463800AA93C7 /* note6.wav */,
+				A30FEAF32305463800AA93C7 /* note7.wav */,
+				A30FEAF72305463800AA93C7 /* note1.wav */,
+			);
+			path = "Sound Files";
+			sourceTree = "<group>";
+		};
 		A33CDA662304727E00F4DF07 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				A33CDA722304727E00F4DF07 /* AppDelegate.swift */,
-				A33CDA742304727E00F4DF07 /* ViewController.swift */,
-				A33CDA762304727E00F4DF07 /* Main.storyboard */,
 				A33CDA792304727F00F4DF07 /* Assets.xcassets */,
+				A33CDA742304727E00F4DF07 /* ViewController.swift */,
 				A33CDA7B2304727F00F4DF07 /* LaunchScreen.storyboard */,
+				A33CDA762304727E00F4DF07 /* Main.storyboard */,
 				A33CDA7E2304727F00F4DF07 /* Info.plist */,
+				A30FEAF02305462400AA93C7 /* Sound Files */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -229,9 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30FEAFD2305463800AA93C7 /* note4.wav in Resources */,
+				A30FEAFA2305463800AA93C7 /* note7.wav in Resources */,
+				A30FEAF82305463800AA93C7 /* note5.wav in Resources */,
 				A33CDA7D2304727F00F4DF07 /* LaunchScreen.storyboard in Resources */,
+				A30FEAFB2305463800AA93C7 /* note6.wav in Resources */,
 				A33CDA7A2304727F00F4DF07 /* Assets.xcassets in Resources */,
+				A30FEAFC2305463800AA93C7 /* note2.wav in Resources */,
 				A33CDA782304727E00F4DF07 /* Main.storyboard in Resources */,
+				A30FEAFE2305463800AA93C7 /* note1.wav in Resources */,
+				A30FEAF92305463800AA93C7 /* note3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
